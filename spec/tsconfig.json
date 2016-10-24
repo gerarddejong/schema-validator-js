@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "outFile": "schema-validator-spec.js"
+  },
+  "include": [
+    "../src/**.ts",
+    "SchemaValidatorSpec.ts"
+  ]
+}
