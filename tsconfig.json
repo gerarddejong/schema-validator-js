@@ -1,0 +1,7 @@
+{
+  "include": [
+    "SchemaValidationResult.ts",
+    "SchemaValidator.ts",
+    "JSONSchemaValidator.ts"
+  ]
+}
