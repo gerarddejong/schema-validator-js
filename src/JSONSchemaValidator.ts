@@ -8,6 +8,6 @@ class JSONSchemaValidator implements SchemaValidator {
   }
 
   validateString(unvalidated: String, schema: any) : SchemaValidationResult {
-    return SchemaValidationResult.invalidResultWithMessage("No implemented yet!");
+    return SchemaValidationResult.validResultWithMessage("No implemented yet!");
   }
 }

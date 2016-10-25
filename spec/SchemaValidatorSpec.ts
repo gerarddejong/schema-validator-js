@@ -8,7 +8,8 @@ describe("SchemaValidator String Tests", () => {
     });
 
     it("validates strings correctly", () => {
-        //expect(validator.validate("This is a string.", "{\"type\": \"string\"}").isValid()).toBe(true);
+        let result = validator.validate("This is a string.", "{\"type\": \"string\"}");
+        expect(result.isValid).toBe(true);
         expect(true).toEqual(true);
     });
 });
